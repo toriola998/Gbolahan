@@ -16,6 +16,10 @@ body {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -61,6 +65,29 @@ h1 {
     padding: .7rem 1rem;
     border-radius: 7px;
     font-size: 15px;
-    font-weight: 700;
     font-family: 'Inter', sans-serif;
+}
+
+main {
+    padding: 0 1.5rem;
+}
+
+#about {
+    margin: 4rem 0;
+}
+
+#about h2{
+    text-align: center;
+}
+
+article p {
+    color: var(--grey);
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.resume {
+    padding: .7rem 1.5rem;
+    margin-top: 1.5rem;
 }
