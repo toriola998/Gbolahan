@@ -48,10 +48,11 @@ header {
     margin-top: 7rem;
 }
 
-header p {
+p {
     font-weight: 400;
     font-size: 16px;
     color: var(--grey);
+    line-height: 1.6;
 }
 
 h1 {
@@ -83,10 +84,7 @@ main {
 }
 
 article p {
-    color: var(--grey);
-    font-size: 14px;
     margin-top: 1rem;
-    line-height: 1.6;
 }
 
 .resume {
@@ -114,7 +112,6 @@ ul li {
     font-size: 14px;
 }
 
-
 .blue,
 .purple,
 .grey,
@@ -138,7 +135,7 @@ ul li {
 .white {
     background-color: #fff;
     height: 12rem;
-    width: 17rem;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -148,4 +145,33 @@ ul li {
 
 .grey {
     background-color: var(--grey);
+}
+
+#projects h2 {
+    margin-bottom: 3rem;
+    font-size: 2.1rem;
+}
+
+.portfolio-contents {
+    margin-top: 2rem;
+}
+
+.portfolio-contents h3 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.portfolio-contents p {
+    margin: .5rem 0;
+    font-size: 14px;
+}
+
+.portfolio-contents a {
+    color: #fff;
+    font-size: 17px;
+    border-bottom: 2px solid #fff;
+}
+
+.portfolio {
+    margin-bottom: 5rem;
 }
