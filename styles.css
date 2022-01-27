@@ -8,6 +8,8 @@
 :root {
     --grey: #a6a6a6;
     --black: #000;
+    --bgBlue: #0047cc;
+    --bgPurple: #211048;
 }
 
 body {
@@ -110,4 +112,40 @@ ul li {
     color: var(--grey);
     padding-bottom: .5rem;
     font-size: 14px;
+}
+
+
+.blue,
+.purple,
+.grey,
+.white {
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.blue,
+.purple,
+.grey {
+    height: 17rem;
+   /* width: 90%;*/
+}
+
+.blue {
+    background-color: var(--bgBlue);
+}
+
+.white {
+    background-color: #fff;
+    height: 12rem;
+    width: 17rem;
+    margin: 0 auto;
+}
+
+.purple {
+    background-color: var(--bgPurple);
+}
+
+.grey {
+    background-color: var(--grey);
 }
