@@ -50,7 +50,7 @@ header {
 
 p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--grey);
     line-height: 1.6;
 }
@@ -71,7 +71,8 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
-main {
+main,
+footer {
     padding: 0 1.5rem;
 }
 
@@ -147,7 +148,8 @@ ul li {
     background-color: var(--grey);
 }
 
-#projects h2 {
+#projects h2,
+#contact h2 {
     margin-bottom: 3rem;
     font-size: 2.1rem;
 }
@@ -177,14 +179,40 @@ ul li {
     margin-bottom: 5rem;
 }
 
+#contact h2 {
+    margin-bottom: 2rem;
+}
+
 .hello {
     font-size: 16px; 
 }
 
 .height1 {
-    height: 1.5rem;
+    height: 1.4rem;
 }
 
 .social-icon {
     height: 2rem;
+}
+
+.connect {
+    margin: 4rem 0;
+}
+
+.media-wrap img {
+    margin-right: 1rem;
+}
+
+.line {
+    width: auto;
+    height: 1px;
+    background-color: var(--grey);
+}
+
+footer .flex {
+    margin: 2rem 0 1rem;
+}
+
+footer p {
+    font-size: 12px;
 }
