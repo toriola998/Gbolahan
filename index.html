@@ -10,32 +10,38 @@
     <body>
         <header>
             <div class="nav-top flex">
-                <img src="./images/logo.svg" alt="logo"/>
+                <div class="flex logo-wrap">
+                    <img src="./assets/logo.png" alt="logo" class="logo"/>
+                </div>
                 <img src="./assets/menu.svg" id="hamburger"/>
             </div> 
 
             <nav>
                 <div>   
-                <img src="./assets/icons/close-icon.svg" alt="close-icon" id="close-icon" />
+                <img src="./assets/close-icon.svg" alt="close-icon" id="close-icon" />
                     <ul class="nav-items">
                         <li>
-                            <a href="#" class="nav-link"><span>01</span>HOME</a></li>
+                            <a href="#" class="nav-link">home</a></li>
                         <li>
-                            <a href="./pages/about.html" class="nav-link"><span>02</span>ABOUT US</a></li>
+                            <a href="#about" class="nav-link">about</a></li>
                         <li>
-                            <a href="./pages/gallery.html" class="nav-link"><span>03</span>GALLERY</a></li>
+                            <a href="#projects" class="nav-link">projects</a></li>
                         <li>
-                            <a href="./pages/contact.html" class="nav-link"><span>04</span>CONTACT US</a></li>
-                        <!--<li>
-                            <a href="./pages/blog.html" class="nav-link"><span>05</span>OUR BLOG</a></li>-->     
+                            <a href="#contact" class="nav-link">contact</a></li>
                     </ul>
+                    <div class="flex media-wrap">
+                        <img src="./assets/contacts/facebook.svg" alt="facebook" class="social-icon"/>
+                        <img src="./assets/contacts/Instagram.svg" alt="instagram" class="height1"/>
+                        <img src="./assets/contacts/linkedIn.svg" alt="linkedin" class="height1"/>
+                        <img src="./assets/contacts/twitter.svg" alt="twitter" class="social-icon"/>
+                    </div>
                 </div> 
             </nav>
 
             <div class="content">
                 <p>Hi, I'm Gbolahan, a mobile developer from Nigeria.</p>
                 <h1>I  design, develop and implement interactive mobile applications. </h1>
-                <button>LET'S CONNECT</button>
+                <button><a href="#contact">LET'S CONNECT</a></button>
             </div>
         </header>
         <main>
@@ -67,7 +73,7 @@
                             <li>Django</li>
                         </div>
                     </ul>
-                    <button class="resume"><a href="">VIEW RESUME</a></button>
+                    <button class="resume"><a href="" target="_blank">VIEW RESUME</a></button>
                 </div>
             </section>
             <section id="projects">
@@ -84,7 +90,7 @@
                             that helps businesses do more with less. People By Bento, reimagines 
                             HRM from the ground up.</p>
                         <p>
-                            <a href="https://play.google.com/store/apps/details?id=ng.verifi.verifi_employee">Link to Project</a>
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=ng.verifi.verifi_employee">Link to Project</a>
                         </p>
                     </div>
                 </div>
@@ -101,7 +107,7 @@
                         <p>AlajeHub is a digital trading app that presents opportunities for trade of 
                             digital assets and stores-of monetary-value between potential buyers and sellers 
                             across the world..</p>
-                        <p><a href="https://apps.apple.com/ng/app/alajehub/id1601275471">Link to Project</a></p>
+                        <p><a target="_blank" href="https://apps.apple.com/ng/app/alajehub/id1601275471">Link to Project</a></p>
                     </div>
                 </div>
 
@@ -116,14 +122,14 @@
                         <p>“Oh yes Twizll”, that will be your responds once you complete checkout on Twizll 
                             App and receive our limited edition and bespoke African designs. Do you want secure 
                             and convenient shopping of Fashion wears, tap download now?</p>
-                        <p><a href="https://play.google.com/store/apps/details?id=com.twizll.twizllapp">Link to Project</a></p>
+                        <p><a target="_blank" href="https://play.google.com/store/apps/details?id=com.twizll.twizllapp">Link to Project</a></p>
                     </div>
                 </div>
             </section>
             <section id="contact">
                 <h2>Get In Touch</h2>
                 <p style="margin-bottom: 1rem;">Got a Job for me? Want to get to know me? Hit me up.</p>
-                <a href="mailto: gbolahanoduyemi1@gmail.com" class="hello">hello@Gbolahan</a>
+                <a target="_blank" href="mailto: gbolahanoduyemi1@gmail.com" class="hello">hello@Gbolahan</a>
 
                 <div class="connect">
                     <p>You can also connect with me on the media.</p>
@@ -140,10 +146,13 @@
         <footer>
             <div class="line"></div>
             <div class="flex">
-                <img src="./assets/logo.svg" alt="logo" style="margin-right: 1rem;"/>
+                <div class="flex logo-wrap">
+                    <img src="./assets/logo.png" alt="logo" class="logo"/>
+                </div>
                 <img src="./assets/contacts/github.svg" alt="github" class="social-icon"/>
             </div>
-            <p>Copyright Gbolahan Oduyemi &copy;<span>2022</span>All rights reserved.</p>
+            <p>Copyright Gbolahan Oduyemi &copy;<span id="date">2020</span> All rights reserved.</p>
         </footer>
+        <script src="main.js"></script>
     </body>
 </html>

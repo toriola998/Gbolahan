@@ -51,7 +51,7 @@ header {
     width: 70vw;
     top: 0;
     right: 0;
-    background-color: #fff;
+    background-color: /*#0b090a; 0a0908 #0c0f*/   #202020;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,25 +63,19 @@ header {
     height: 0;
   }
   
-  li {
+  nav li {
     list-style-type: none;
-    padding-bottom: 1rem;
+    padding-bottom: .7rem;
   }
 
-  li > a {
-    color: var(--brownFont);
-   font-weight: 400;
-    font-size: 14px;
-    font-family: var(--paragraphFont);
+  nav li > a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
   }
 
-  li > a > span {
-    font-weight: 600;
-    padding-right: 0.5rem;
-  }
-  
-  li > a:hover {
-    border-bottom: 3px solid var(--brownFont);
+  nav li > a:hover {
+    border-bottom: 3px solid #000;
     text-decoration: none;
   }
 
@@ -89,6 +83,7 @@ header {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
+    height: 1.9rem;
   }
 
 .content {
@@ -109,7 +104,7 @@ h1 {
     margin: 1rem 0;
 }
 
-.content button {
+.content button a{
     color: #fff;
     background-color: var(--black);
     padding: .6rem 1rem;
@@ -150,11 +145,11 @@ article p {
     margin-bottom: 1rem;
 }
 
-ul {
+#about ul {
     padding-left: 1.5rem;
 }
 
-ul li {
+#about ul li {
     color: var(--grey);
     padding-bottom: .5rem;
     font-size: 14px;
@@ -250,13 +245,26 @@ ul li {
     margin-right: 1rem;
 }
 
+.logo-wrap {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.logo {
+    height: 2rem;
+}
+
 .line {
     width: auto;
     height: 1px;
     background-color: var(--grey);
 }
 
-footer .flex {
+footer > .flex {
     margin: 2rem 0 1rem;
 }
 
