@@ -166,7 +166,8 @@ ul li {
     font-size: 14px;
 }
 
-.portfolio-contents a {
+.portfolio-contents a,
+.hello {
     color: #fff;
     font-size: 17px;
     border-bottom: 2px solid #fff;
@@ -174,4 +175,8 @@ ul li {
 
 .portfolio {
     margin-bottom: 5rem;
+}
+
+.hello {
+    font-size: 16px; 
 }
