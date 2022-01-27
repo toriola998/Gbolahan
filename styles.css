@@ -180,3 +180,11 @@ ul li {
 .hello {
     font-size: 16px; 
 }
+
+.height1 {
+    height: 1.5rem;
+}
+
+.social-icon {
+    height: 2rem;
+}
