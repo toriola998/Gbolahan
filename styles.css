@@ -41,7 +41,7 @@ button {
 }
 
 header {
-    padding: 1rem 1.5rem;
+    padding: 1.5rem;
 }
 
 .show-links {
@@ -104,6 +104,10 @@ h1 {
     margin: 1rem 0;
 }
 
+.content button {
+    margin-top: 1rem;
+}
+
 .content button a{
     color: #fff;
     background-color: var(--black);
@@ -113,7 +117,9 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
-main,
+#about,
+#contact,
+#projects,
 footer {
     padding: 0 1.5rem;
 }
@@ -270,4 +276,79 @@ footer > .flex {
 
 footer p {
     font-size: 12px;
+}
+
+@media screen and (min-width: 540px) {
+    header {
+        padding: 1.5rem 3rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    #about,
+    #contact,
+    #projects,
+    footer {
+        padding: 0 3rem;
+    }
+
+    .portfolio {
+        width: 80%;
+        margin: 5rem auto;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    header {
+        padding: 1.5rem 5rem;
+    }
+    
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #about,
+    #contact,
+    footer {
+        padding: 0 5rem;
+    }
+
+    #projects {
+        padding: 0 1.5rem;
+    }
+
+    .portfolio {
+        display: grid;
+        grid-template-columns: 50% 45%;
+        align-items: center;
+        justify-content: center;
+        width: unset;
+    }
+
+    .portfolio > .flex {
+        margin-right: 2rem;
+    }
+
+    #contact > div {
+        margin: auto;
+        width: 70%;
+        
+    }
+
+    footer > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+    }
 }
