@@ -76,7 +76,7 @@ main {
     margin: 4rem 0;
 }
 
-#about h2{
+ h2{
     text-align: center;
 }
 
@@ -90,4 +90,24 @@ article p {
 .resume {
     padding: .7rem 1.5rem;
     margin-top: 1.5rem;
+}
+
+.skill-wrap {
+    margin-top: 3rem;
+}
+
+.skills {
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    color: var(--grey);
+    padding-bottom: .5rem;
+    font-size: 14px;
 }
