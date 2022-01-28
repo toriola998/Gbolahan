@@ -111,22 +111,24 @@ h1 {
 
 .content button {
     margin-top: 1rem;
+    background-color: var(--black);
+    padding: .8rem 1rem;
+    border: 1px solid #fff;
+    transition: all .7s;
+}
 
+.content button:hover {
+    background-color: #fff;
 }
 
 .content button a:hover {
     color: #000;
-    background-color: #fff;
 }
 
 .content button a{
     color: #fff;
-    background-color: var(--black);
-    padding: .6rem 1rem;
-    font-size: 13px;
-    border: 1px solid #fff;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
-    transition: all .7s;
 }
 
 .resume-wrap {
