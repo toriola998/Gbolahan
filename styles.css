@@ -43,6 +43,7 @@ button {
 
 header {
     padding: 1.5rem;
+    min-height: 100vh;
 }
 
 .show-links {
@@ -105,7 +106,7 @@ p {
 h1 {
     font-weight: 700;
     line-height: 1.4;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     margin: 1rem 0;
 }
 
@@ -117,7 +118,6 @@ h1 {
 .content button a:hover {
     color: #000;
     background-color: #fff;
-    border: 1px solid #0008;
 }
 
 .content button a{
@@ -303,7 +303,7 @@ footer p {
     }
     
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     header p {
