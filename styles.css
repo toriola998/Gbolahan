@@ -16,6 +16,7 @@ body {
     background-color: #000;
     font-family: 'Inter', sans-serif;
     color: #fff;
+    width: 100%;
 }
 
 a {
@@ -75,7 +76,7 @@ header {
   }
 
   nav li > a:hover {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #fff;
     text-decoration: none;
   }
 
@@ -204,6 +205,11 @@ article p {
 #contact h2 {
     margin-bottom: 3rem;
     font-size: 2.1rem;
+}
+
+#contact > div {
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-contents {
@@ -349,6 +355,7 @@ footer p {
     
     h1 {
         font-size: 2.9rem;
+        max-width: 700px;
     }
 
     p,
@@ -382,9 +389,8 @@ footer p {
         margin: unset;
     }
 
-    #contact > div {
-        margin: auto;
-        width: 70%; 
+    #contact {
+        margin-top: 9rem;
     }
 
     footer > div {
@@ -403,12 +409,25 @@ footer p {
 
 @media screen and (min-width: 970px) {
     header {
-        padding: 1.5rem 7rem;
+        padding: 1.5rem 9rem;
+        height: 100vh;
+    }
+
+    .content {
+        margin-top: 10rem;
     }
     
     h1 {
         font-size: 3.5rem;
         /*width: 720px;*/
+    }
+
+    nav ul li {
+        margin-right: 2rem;
+    }
+
+    nav li > a {
+        font-size: 18px;
     }
 
     .portfolio {
@@ -426,18 +445,17 @@ footer p {
 
     #projects h2,
     #contact h2 {
-        font-size: 2.6rem;
+        font-size: 2.9rem;
     }
 
-    h3 {
-        font-size: 2.2rem;
+    .portfolio-contents h3 {
+        font-size: 2.3rem;
     }
 
     #about > div {
         display: grid;
         grid-template-columns: 60% 50%;
         align-items: center;
-
     }
 
     .portfolio-contents a {
@@ -448,5 +466,37 @@ footer p {
         font-size: 15.5px;
         margin: .8rem 0;
     }
+}
 
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+        width: 800px;
+    }
+
+    .portfolio {
+        grid-template-columns: 33% 30%;
+    }
+
+    .portfolio > .flex {
+        height: 22rem;
+        margin-right: 4rem;
+    }
+
+    #contact {
+        margin-top: 12rem;
+    }
+
+    .white {
+        height: 17rem;
+    }
+
+    #projects h2,
+    #contact h2 {
+        font-size: 3.2rem;
+    }
+
+    .portfolio-contents h3 {
+        font-size: 2.6rem;
+    }
 }
