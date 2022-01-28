@@ -106,28 +106,21 @@ h1 {
     font-weight: 700;
     line-height: 1.4;
     font-size: 2.6rem;
-    margin: 1rem 0;
+    margin: 1rem 0 2rem;
 }
 
-.content button {
-    margin-top: 1rem;
-    background-color: var(--black);
-    padding: .8rem 1rem;
-    border: 1px solid #fff;
-    transition: all .7s;
-}
-
-.content button:hover {
+.content a:hover {
+    color: #000;
     background-color: #fff;
 }
 
-.content button a:hover {
-    color: #000;
-}
-
-.content button a{
+.content a{
     color: #fff;
     font-size: 14px;
+    background-color: var(--black);
+    padding: .6rem 1rem;
+    border: 1px solid #fff;
+    transition: all .7s;
     font-family: 'Inter', sans-serif;
 }
 
@@ -475,7 +468,7 @@ footer p {
         font-size: 2.4rem;
     }
 
-    .content button a{
+    .content a{
         font-size: 15px;
         padding: .8rem 1.5rem;
     }
