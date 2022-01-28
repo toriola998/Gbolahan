@@ -130,7 +130,7 @@ footer {
 }
 
 #about {
-    margin: 4rem 0;
+    margin: 4rem 0 6rem;
 }
 
  h2{
@@ -143,7 +143,8 @@ article p {
 
 .resume {
     padding: .7rem 1.5rem;
-    margin-top: 1.5rem;
+    display: block;
+    margin: 1.5rem auto 0;
 }
 
 .skill-wrap {
@@ -363,6 +364,11 @@ footer p {
         font-size: 15px;
     }
 
+    .about-me p {
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
     #about,
     #contact,
     footer {
@@ -430,6 +436,10 @@ footer p {
         font-size: 18px;
     }
 
+    .media-wrap img {
+        margin-right: 1.5rem;
+    }
+
     .portfolio {
         grid-template-columns: 38% 35%;
     }
@@ -452,10 +462,22 @@ footer p {
         font-size: 2.3rem;
     }
 
-    #about > div {
-        display: grid;
-        grid-template-columns: 60% 50%;
-        align-items: center;
+    #about {
+        margin: 0 0 7rem 0;
+    }
+
+    .about-me p {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    #about ul li {
+        font-size: 17px;
+        margin-bottom: 1rem;
+    }
+    .about-me {
+        width: 75%;
+        margin: auto;
     }
 
     .portfolio-contents a {
@@ -485,6 +507,10 @@ footer p {
 
     #contact {
         margin-top: 12rem;
+    }
+
+    #about {
+        margin: 4rem 0 10rem 0;
     }
 
     .white {
