@@ -13,6 +13,7 @@
           content="Gobolahan-Oduyemi, mobile-developer, gbolahan, oduyemi"/> 
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <link rel="stylesheet" href="./styles.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>Gbolahan Oduyemi || Mobile Developer</title>
     </head>
     <body>
@@ -54,14 +55,14 @@
             </nav>
             <div class="content">
                 <p>Hi, I'm Gbolahan, a mobile developer from Nigeria.</p>
-                <h1>I  design, develop and implement interactive mobile applications. </h1>
+                <h1 data-aos="fade-up">I  design, develop and implement interactive mobile applications. </h1>
                 <button><a href="#contact">LET'S CONNECT</a></button>
             </div>
         </header>
         <main>
             <section id="about">
                 <div class="about-me">
-                    <div>
+                    <div data-aos="zoom-in">
                         <!--<h2 style="text-align: left;">About Me</h2>-->
                         <article>
                             <p>As a mobile developer, I efficiently perform allocated tasks independently and in collaborative environments.
@@ -75,7 +76,7 @@
                             These give me the ability to prioritize features when building products.</p>
                         </article>
                     </div>
-                    <div class="resume-wrap flex">
+                    <div class="resume-wrap flex" data-aos="zoom-in-left">
                         <a href="" target="_blank">#View Resume</a></button>
                         <div class="hr-line"></div>
                     </div>
@@ -83,14 +84,14 @@
             </section>
 
             <section id="projects">
-                <h2>Projects</h2>
+                <h2 data-aos="zoom-in">Projects</h2>
                 <div class="portfolio"> 
-                    <div class="blue flex">
+                    <div class="blue flex" data-aos="zoom-in-right">
                         <div class="white flex">
                             <img src="./assets/bento.png" alt="">
                         </div>
                     </div>
-                    <div class="portfolio-contents"> 
+                    <div class="portfolio-contents" data-aos="zoom-in-left"> 
                         <h3>Bento Africa</h3>
                         <p>Pay by Bento, is a cloud-based salaries and benefits solution 
                             that helps businesses do more with less. People By Bento, reimagines 
@@ -101,12 +102,12 @@
                     </div>
                 </div>
                 <div class="portfolio">
-                    <div class="purple flex">
+                    <div class="purple flex" data-aos="zoom-in-right">
                         <div class="white flex">
                             <img src="./assets/alaje.png" alt="" style="height: 6rem";>
                         </div>
                     </div>
-                    <div class="portfolio-contents">
+                    <div class="portfolio-contents" data-aos="zoom-in-left">
                         <img>
                         <h3>AlajeHub</h3>
                         <p>AlajeHub is a digital trading app that presents opportunities for trade of 
@@ -117,12 +118,12 @@
                 </div>
 
                 <div class="portfolio">
-                    <div class="grey flex">
+                    <div class="grey flex" data-aos="zoom-in-right">
                         <div class="white flex">
                             <img src="./assets/twizll2.png" alt="" style="height: 6rem">
                         </div>
                     </div>
-                    <div class="portfolio-contents">
+                    <div class="portfolio-contents" data-aos="zoom-in-left">
                         <h3>Twizll</h3>
                         <p>“Oh yes Twizll”, that will be your responds once you complete checkout on Twizll 
                             App and receive our limited edition and bespoke African designs. Do you want secure 
@@ -133,13 +134,15 @@
             </section>
 
             <section id="contact">
-                <h2>Get In Touch</h2>
+                <h2 data-aos="zoom-in">Get In Touch</h2>
                 <div>
                     <div>
-                        <p style="margin-bottom: 1rem;">Got a Job for me? Want to get to know me? Hit me up.</p>
-                        <a target="_blank" href="mailto: gbolahanoduyemi1@gmail.com" class="hello">hello@Gbolahan</a>
-        
-                        <div class="connect">
+                        <div data-aos="zoom-out-up">
+                            <p style="margin-bottom: 1rem;">Got a Job for me? Want to get to know me? Hit me up.</p>
+                            <a target="_blank" href="mailto: gbolahanoduyemi1@gmail.com" class="hello">hello@Gbolahan</a>    
+                        </div>
+                       
+                        <div class="connect" data-aos="zoom-out-down">
                             <p>You can also connect with me on the media.</p>
                             <div class="flex media-wrap" style="margin-top: .8rem;">
                                 <a href="facebook.com/gbolahan.oduyemi.395" target="_blank">
@@ -175,7 +178,7 @@
                 <p>Copyright Gbolahan Oduyemi &copy;<span id="date">2020</span> All rights reserved.</p>
             </div>
         </footer>
-        <script src="main.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
