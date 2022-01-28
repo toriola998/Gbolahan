@@ -122,6 +122,24 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
+
+.resume-wrap {
+    position: absolute;
+    right: 0;
+    margin: 4rem 0;
+}
+
+.resume-wrap a {
+    color: var(--grey);
+    font-size: 1.8rem;
+}
+
+.hr-line {
+    background-color: var(--grey);
+    height: 2px;
+    width: 3rem;
+}
+
 #about,
 #contact,
 #projects,
@@ -141,30 +159,8 @@ article p {
     margin-top: 1rem;
 }
 
-.resume {
-    padding: .7rem 1.5rem;
-    display: block;
-    margin: 1.5rem auto 0;
-}
-
-.skill-wrap {
-    margin-top: 3rem;
-}
-
-.skills {
-    text-align: left;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-#about ul {
-    padding-left: 1.5rem;
-}
-
-#about ul li {
-    color: var(--grey);
-    padding-bottom: .5rem;
-    font-size: 14px;
+#projects {
+    margin-top: 13rem;
 }
 
 .blue,
@@ -307,6 +303,10 @@ footer p {
         font-size: 17px;
     }
 
+    .hr-line {
+        width: 5rem;
+    }
+
     #about,
     #contact,
     #projects,
@@ -323,6 +323,7 @@ footer p {
 @media screen and (min-width: 720px) {
     header {
         padding: 1.5rem 5rem;
+        height: 100vh;
     }
 
     #hamburger,
@@ -367,6 +368,14 @@ footer p {
     .about-me p {
         text-transform: uppercase;
         font-size: 13px;
+    }
+
+    .resume-wrap a {
+        font-size: 2rem;
+    }
+
+    .hr-line {
+        width: 8rem;
     }
 
     #about,
@@ -416,7 +425,6 @@ footer p {
 @media screen and (min-width: 970px) {
     header {
         padding: 1.5rem 9rem;
-        height: 100vh;
     }
 
     .content {
@@ -425,7 +433,6 @@ footer p {
     
     h1 {
         font-size: 3.5rem;
-        /*width: 720px;*/
     }
 
     nav ul li {
@@ -448,6 +455,14 @@ footer p {
         font-size: 17px;
     }
 
+    .hr-line {
+        width: 11rem;
+    }
+
+    .resume-wrap a {
+        font-size: 2.4rem;
+    }
+
     .content button a{
         font-size: 15px;
         padding: .8rem 1.5rem;
@@ -463,7 +478,7 @@ footer p {
     }
 
     #about {
-        margin: 0 0 7rem 0;
+        margin: 0 0 15rem 0;
     }
 
     .about-me p {
@@ -510,7 +525,15 @@ footer p {
     }
 
     #about {
-        margin: 4rem 0 10rem 0;
+        margin: 4rem 0 15rem 0;
+    }
+
+    .hr-line {
+        width: 19rem;
+    }
+
+    .resume-wrap a {
+        font-size: 2.7rem;
     }
 
     .white {
