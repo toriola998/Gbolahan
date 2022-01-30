@@ -1,14 +1,13 @@
-# Gbolahan Portfolio
+# Gbolahan's  Portfolio
 
-## Screenshot
-![](./assets/screenshot.png)
-
-## About
 This is a portfolio built for a mobile developer, built with 
 - HTML
 - CSS
 - Vanilla Javascript
 - AOS library
+
+## Screenshot
+![](./assets/screenshot.png)
 
 ## Project 
 - Home 
@@ -16,4 +15,5 @@ This is a portfolio built for a mobile developer, built with
 - Projects 
 - Contact
 
-Live Url: https://gbolahan1.netlify.app/
+## Live Url
+- https://gbolahan1.netlify.app/
